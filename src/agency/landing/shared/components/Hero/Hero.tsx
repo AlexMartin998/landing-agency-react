@@ -15,7 +15,7 @@ const Hero: React.FC<HeroInterface> = () => {
         <h3 className="title">Software Development</h3>
         <h1 className="intro__title">
           <span className="gradient__text">Agencia digital</span>
-          Desarrollo robusto a la medida
+          Software robusto a la medida
         </h1>
 
         <div className="description">
