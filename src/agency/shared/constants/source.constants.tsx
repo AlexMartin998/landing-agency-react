@@ -110,3 +110,13 @@ export const services: ServicesType[] = [
     `,
   },
 ];
+
+// // AboutUs -----------------------
+export const BUSINESS_NAME = 'Adinuba Agency';
+export const aboutUs = {
+  title: 'Nosotros',
+  description: `
+    Somos una empresa de desarrollo de software con más de 10 años de experiencia en el mercado.
+  `,
+  image: 'https://via.placeholder.com/300',
+};
