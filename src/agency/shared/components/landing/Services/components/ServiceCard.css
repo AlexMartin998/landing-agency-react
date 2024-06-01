@@ -1,0 +1,30 @@
+.services__card {
+  background: var(--bg-color-2);
+  padding: 20px;
+  border-radius: var(--radius-3);
+  border: solid 1px transparent;
+  transition: var(--transition);
+}
+
+.services__card:hover {
+  border-color: var(--color-primary);
+  background: transparent;
+}
+
+.services__card .icon__container {
+  font-size: 45px;
+}
+
+.services__card:hover .icon__container {
+  scale: 1.2;
+  color: var(--color-primary);
+}
+
+.services__card .name {
+  font-size: 16px;
+  margin: 30px 0 10px 0;
+}
+
+.services__card .description {
+  font-size: 14px;
+}
