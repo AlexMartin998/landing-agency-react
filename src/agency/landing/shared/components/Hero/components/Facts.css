@@ -1,0 +1,26 @@
+.fact__container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
+  padding: 20px 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.fact__container .fact__item {
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .fact__container {
+    gap: 20px;
+  }
+  .fact__container .fact__item .main__title {
+    font-size: 25px;
+  }
+  .fact__container .fact__item .text__mute {
+    font-size: 12px;
+  }
+}
