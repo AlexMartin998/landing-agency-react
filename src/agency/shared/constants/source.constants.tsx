@@ -1,7 +1,9 @@
 import { BsBank2, BsCodeSquare } from 'react-icons/bs';
 import { FaPaintBrush, FaRobot } from 'react-icons/fa';
+
 import {
   amazon,
+  avatat01,
   facebook,
   google,
   linkedin,
@@ -190,5 +192,60 @@ export const projects: ProjectsType[] = [
     image:
       'https://cdn.dribbble.com/users/4813218/screenshots/14667363/dribbble_shot_hd_-_1__1_.png',
     url: 'https://github.com',
+  },
+];
+
+// // Teams -----------------------
+export type TeamsType = {
+  name: string;
+  title: string;
+  profile: string;
+  social?: { name: string; icon: JSX.Element; url: string }[];
+};
+export const teams = [
+  {
+    name: 'José',
+    title: 'Fullstack Developer',
+    profile: avatat01,
+    social: [
+      // { name: 'Facebook', icon: <CiFacebook />, url: 'http://facebook.com' },
+      // { name: 'LinkedIn', icon: <CiLinkedin />, url: 'http://linkedin.com' },
+      // {
+      //   name: 'Youtube',
+      //   icon: <FaYoutube />,
+      //   url: 'https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1',
+      // },
+      // { name: 'Instagram', icon: <FaInstagram />, url: 'http://instagram.com' },
+    ],
+  },
+  {
+    name: 'Adrian',
+    title: 'Fullstack Developer',
+    profile: avatat01,
+    social: [
+      // { name: 'Facebook', icon: <CiFacebook />, url: 'http://facebook.com' },
+      // { name: 'LinkedIn', icon: <CiLinkedin />, url: 'http://linkedin.com' },
+      // {
+      //   name: 'Youtube',
+      //   icon: <FaYoutube />,
+      //   url: 'https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1',
+      // },
+      // { name: 'Instagram', icon: <FaInstagram />, url: 'http://instagram.com' },
+    ],
+  },
+  {
+    name: 'John',
+    title: 'Graphic Designer',
+    profile: avatat01,
+    social: [
+      // { name: 'Facebook', icon: <CiFacebook />, url: 'http://facebook.com' },
+      // { name: 'LinkedIn', icon: <CiLinkedin />, url: 'http://linkedin.com' },
+      // {
+      //   name: 'Youtube',
+      //   icon: <FaYoutube />,
+      //   url: 'https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1',
+      // },
+      // { name: 'Instagram', icon: <FaInstagram />, url: 'http://instagram.com' },
+    ],
   },
 ];

@@ -1,3 +1,24 @@
-.teams{
+#teams {
+  background: var(--bg-color-1);
+}
 
+#teams .container .description {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 60px;
+  max-width: 600px;
+}
+
+#teams .team__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 20px;
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  #teams .team__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
