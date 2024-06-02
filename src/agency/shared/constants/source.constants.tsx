@@ -1,6 +1,8 @@
-import { BsBank2, BsCodeSquare } from 'react-icons/bs';
+import { BsBank2, BsCodeSquare, BsWhatsapp } from 'react-icons/bs';
 import { FaPaintBrush, FaRobot } from 'react-icons/fa';
 
+import { MdOutlineEmail } from 'react-icons/md';
+import { RiMessengerLine } from 'react-icons/ri';
 import {
   amazon,
   avatar02,
@@ -269,5 +271,33 @@ export const testimonies: TestimoniesType[] = [
     name: 'Ana',
     content:
       'La app móvil de ecommerce es perfecta. Nos encanta la funcionalidad del carrito de compras.',
+  },
+];
+
+// // Contact -----------------------
+export type ContactInfoType = {
+  name: string;
+  icon: JSX.Element;
+  address: string;
+  link: string;
+};
+export const contactInfo: ContactInfoType[] = [
+  {
+    name: 'Email',
+    icon: <MdOutlineEmail />,
+    address: 'mradinuba@gmail.com',
+    link: 'mailto:mradinuba@gmail.com',
+  },
+  {
+    name: 'Messenger',
+    icon: <RiMessengerLine />,
+    address: 'Emmanuel Eze',
+    link: 'http://m.me/profile.php?id=100076751404019',
+  },
+  {
+    name: 'WhatsApp',
+    icon: <BsWhatsapp />,
+    address: '+2347039681695',
+    link: 'https://api.whatsapp.com/send?phone=+2347039681695',
   },
 ];
