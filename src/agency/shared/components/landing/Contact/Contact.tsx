@@ -1,5 +1,5 @@
 import { contactInfo } from '@/agency/shared/constants';
-import { robot2 } from '@/assets/images';
+import { robot3 } from '@/assets/images';
 import './Contact.css';
 
 export interface ContactInterface {}
@@ -15,14 +15,14 @@ const Contact: React.FC<ContactInterface> = () => {
             </h1>
 
             <p className="text__muted">
-              Desarrollamos soluciones efectivas para tu proyecto, no dudes en
-              contactarnos.
+              Desarrollamos soluciones robustas adaptadas a tus necesidades. No
+              dudes en contactarnos.
             </p>
           </div>
 
           <div className="contact__form__middle">
             <img
-              src={robot2}
+              src={robot3}
               alt="robot"
               className="contact__form__middle__img"
             />

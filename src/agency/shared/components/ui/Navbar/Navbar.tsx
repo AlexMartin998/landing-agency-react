@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IoLogoBuffer } from 'react-icons/io5';
-import { Link } from 'react-scroll';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 import { tabs } from '@/agency/shared/constants';
 
@@ -14,11 +14,11 @@ const Navbar: React.FC<NavbarInterface> = () => {
 
   return (
     <nav id="navbar">
-      <div className="logo__container">
+      <div className="logo__container" onClick={() => scroll.scrollToTop()}>
         <IoLogoBuffer className="icon" />
 
         <h1 className="name">
-          Adin<span className="color__primary gradient__text">uba</span>
+          Na<span className="color__primary gradient__text">me</span>
         </h1>
       </div>
 

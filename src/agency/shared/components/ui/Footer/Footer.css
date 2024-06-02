@@ -1,3 +1,89 @@
-.footer{
+#footer {
+  background: var(--bg-color-1);
+}
 
+#footer .scroll__top__btn {
+  position: fixed;
+  bottom: -100%;
+  right: 20px;
+  z-index: 200;
+  padding: 0;
+  width: 3rem;
+  aspect-ratio: 1/1;
+  border-radius: var(--radius-5);
+  font-size: 18px;
+  transition: var(--transition);
+  animation: showButton 0.4s linear forwards;
+  animation-direction: reverse;
+}
+
+#footer .scroll__top__btn:hover {
+  background: var(--bg-color-1);
+}
+
+#footer .scroll__top__btn.visible {
+  animation: showButton 0.4s linear forwards;
+}
+
+@keyframes showButton {
+  from {
+    bottom: -100%;
+  }
+  to {
+    bottom: 20px;
+  }
+}
+
+#footer .social__handles__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+#footer .social__handles__container .social__handle {
+  width: 3rem;
+  font-size: 1.5rem;
+}
+
+#footer .tabs__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#footer .tab__item {
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+#footer .tab__item:hover {
+  color: var(--color-primary);
+}
+
+#footer .copyright__container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+#footer .copyright__container .address {
+  margin-top: 30px;
+}
+
+#footer .copyright__container h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+  #footer .tabs__container {
+    flex-direction: column;
+  }
 }

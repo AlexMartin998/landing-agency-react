@@ -1,8 +1,11 @@
+import { AiFillGithub } from 'react-icons/ai';
 import { BsBank2, BsCodeSquare, BsWhatsapp } from 'react-icons/bs';
-import { FaPaintBrush, FaRobot } from 'react-icons/fa';
-
+import { CiLinkedin } from 'react-icons/ci';
+import { FaPaintBrush, FaRobot, FaYoutube } from 'react-icons/fa';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
+import { SiFiverr } from 'react-icons/si';
+
 import {
   amazon,
   avatar02,
@@ -117,7 +120,7 @@ export const services: ServicesType[] = [
 ];
 
 // // AboutUs -----------------------
-export const BUSINESS_NAME = 'Adinuba Agency';
+export const BUSINESS_NAME = 'Name Agency';
 export const aboutUs = {
   title: 'Nosotros',
   description: `
@@ -299,5 +302,34 @@ export const contactInfo: ContactInfoType[] = [
     icon: <BsWhatsapp />,
     address: '+2347039681695',
     link: 'https://api.whatsapp.com/send?phone=+2347039681695',
+  },
+];
+
+// // Footer -----------------------
+export type SocialHandlesType = {
+  name: string;
+  icon: JSX.Element;
+  link: string;
+};
+export const socialHandles: SocialHandlesType[] = [
+  {
+    name: 'Fiverr',
+    icon: <SiFiverr />,
+    link: '',
+  },
+  {
+    name: 'Github',
+    icon: <AiFillGithub />,
+    link: '',
+  },
+  {
+    name: 'LinkedIn',
+    icon: <CiLinkedin />,
+    link: '',
+  },
+  {
+    name: 'Youtube',
+    icon: <FaYoutube />,
+    link: '',
   },
 ];

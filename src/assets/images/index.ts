@@ -8,6 +8,7 @@ export { default as profile5 } from './profile-5.jpg';
 export { default as profile6 } from './profile-6.png';
 export { default as robot2 } from './robot-2.jpg';
 export { default as robot } from './robot.jpeg';
+export { default as robot3 } from './robot03.jpg';
 
 /* Logos */
 export { default as amazon } from './logos/amazon.png';
