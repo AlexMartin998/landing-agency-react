@@ -1,0 +1,42 @@
+.project__card {
+  background: var(--bg-color-3);
+  padding: 25px;
+  border-radius: var(--radius-4);
+  border: var(--gray-border);
+  transition: var(--transition);
+  border-color: var(--color-primary);
+}
+
+.project__card:hover {
+  border: var(--gray-border);
+}
+
+.project__card .image__container {
+  border-radius: var(--radius-4);
+  height: 230px;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.project__card .name {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.project__card .buttons {
+  margin: 40px 0 10px 0;
+}
+
+.project__card.zoom__in {
+  animation: zoomIn 600ms ease;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

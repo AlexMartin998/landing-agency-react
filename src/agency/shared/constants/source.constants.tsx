@@ -120,3 +120,75 @@ export const aboutUs = {
   `,
   image: 'https://via.placeholder.com/300',
 };
+
+// // Projects -----------------------
+export type ProjectsType = {
+  id: number;
+  category: string;
+  name: string;
+  description: string;
+  image: string;
+  url: string;
+};
+export const projects: ProjectsType[] = [
+  {
+    id: 1,
+    category: 'Web',
+    name: 'Delivery Web App',
+    description:
+      'Web App de delivery para restaurantes, con seguimiento en tiempo real de los pedidos.',
+    image:
+      'https://cdn.dribbble.com/users/1615584/screenshots/15710288/media/6c7a695e5d4f0a947b2714c4edb39899.jpg?resize=400x300&vertical=center',
+    url: 'https://github.com',
+  },
+  {
+    id: 2,
+    category: 'Apps',
+    name: 'Mobile ecommerce',
+    description:
+      'App móvil de ecommerce con carrito de compras y administración de productos para Android a iOS.',
+    image:
+      'https://cdn.dribbble.com/userupload/6613763/file/original-a15b50e48bb642c55f405d582c04d0e6.png',
+    url: 'https://github.com',
+  },
+  {
+    id: 3,
+    category: 'Web',
+    name: 'ERP System',
+    description:
+      'ERP a medida para empresas, con módulos de contabilidad, inventario, ventas, compras, facturación electrónica y más.',
+    image: 'https://miro.medium.com/v2/resize:fit:1400/0*lrz788UiRbPakyVe.png',
+    url: 'https://github.com',
+  },
+  {
+    id: 4,
+    category: 'Web',
+    name: 'POS System',
+    description:
+      'Sistema de punto de venta para tiendas, con módulos de ventas, inventario, caja, reportes y más.',
+    image:
+      'https://i.pinimg.com/originals/dc/bf/5f/dcbf5f8ba32d8ff36cd30d36a820aa5e.png',
+    url: 'https://github.com',
+  },
+  {
+    id: 5,
+    category: 'Web',
+    name: 'System Control',
+    description:
+      'Sistema de control de procesos para juntas de agua potable, con módulos de usuarios, roles, medidores, facturación y más.',
+    image:
+      'https://cdn.dribbble.com/userupload/8606261/file/original-591d573b6e1715663cf3c4f29da1f1c5.png?resize=400x0',
+    url: 'https://github.com',
+  },
+
+  {
+    id: 6,
+    category: 'UI/UX',
+    name: 'Diseño Gráfico & UI/UX',
+    description:
+      'Diseño, marketing y rebranding para empresas y productos digitales.',
+    image:
+      'https://cdn.dribbble.com/users/4813218/screenshots/14667363/dribbble_shot_hd_-_1__1_.png',
+    url: 'https://github.com',
+  },
+];

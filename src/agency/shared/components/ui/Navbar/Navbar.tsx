@@ -38,7 +38,7 @@ const Navbar: React.FC<NavbarInterface> = () => {
               to={tab.id}
               smooth={true}
               spy={true}
-              offset={-70}
+              offset={-225}
               duration={500}
               activeClass="active"
               onClick={() => setViewSidebar(false)}
