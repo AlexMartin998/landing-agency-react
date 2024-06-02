@@ -3,6 +3,7 @@ import { FaPaintBrush, FaRobot } from 'react-icons/fa';
 
 import {
   amazon,
+  avatar02,
   avatat01,
   facebook,
   google,
@@ -222,30 +223,51 @@ export const teams = [
     name: 'Adrian',
     title: 'Fullstack Developer',
     profile: avatat01,
-    social: [
-      // { name: 'Facebook', icon: <CiFacebook />, url: 'http://facebook.com' },
-      // { name: 'LinkedIn', icon: <CiLinkedin />, url: 'http://linkedin.com' },
-      // {
-      //   name: 'Youtube',
-      //   icon: <FaYoutube />,
-      //   url: 'https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1',
-      // },
-      // { name: 'Instagram', icon: <FaInstagram />, url: 'http://instagram.com' },
-    ],
+    social: [],
   },
   {
     name: 'John',
     title: 'Graphic Designer',
     profile: avatat01,
-    social: [
-      // { name: 'Facebook', icon: <CiFacebook />, url: 'http://facebook.com' },
-      // { name: 'LinkedIn', icon: <CiLinkedin />, url: 'http://linkedin.com' },
-      // {
-      //   name: 'Youtube',
-      //   icon: <FaYoutube />,
-      //   url: 'https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1',
-      // },
-      // { name: 'Instagram', icon: <FaInstagram />, url: 'http://instagram.com' },
-    ],
+    social: [],
+  },
+];
+
+// // Testimonials -----------------------
+export type TestimoniesType = {
+  profile: string;
+  name: string;
+  content: string;
+};
+export const testimonies: TestimoniesType[] = [
+  {
+    profile: avatar02,
+    name: 'Luis',
+    content:
+      'El sistema de control de procesos ha sido vital para nuestra junta de agua potable.',
+  },
+  {
+    profile: avatar02,
+    name: 'Sofía',
+    content:
+      'La app de delivery ha transformado nuestro negocio. Ahora podemos gestionar pedidos en tiempo real.',
+  },
+  {
+    profile: avatar02,
+    name: 'Juan',
+    content:
+      'El sistema ERP a medida nos ha permitido optimizar todos nuestros procesos administrativos.',
+  },
+  {
+    profile: avatar02,
+    name: 'Pedro',
+    content:
+      'El Sistema POS es intuitivo y ha mejorado la eficiencia en nuestra tienda.',
+  },
+  {
+    profile: avatar02,
+    name: 'Ana',
+    content:
+      'La app móvil de ecommerce es perfecta. Nos encanta la funcionalidad del carrito de compras.',
   },
 ];

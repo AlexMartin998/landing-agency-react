@@ -11,8 +11,6 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.4.2",
-    "@tanstack/react-query": "^5.40.0",
-    "axios": "^1.7.2",
     "million": "^3.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -20,10 +18,9 @@
     "react-icons": "^5.2.1",
     "react-router-dom": "^6.23.1",
     "react-scroll": "^1.9.0",
-    "zustand": "^4.5.2"
+    "swiper": "^11.1.4"
   },
   "devDependencies": {
-    "@tanstack/eslint-plugin-query": "^5.35.6",
     "@types/node": "^20.13.0",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
