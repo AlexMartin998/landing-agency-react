@@ -120,7 +120,7 @@ export const services: ServicesType[] = [
 ];
 
 // // AboutUs -----------------------
-export const BUSINESS_NAME = 'Name Agency';
+export const BUSINESS_NAME = 'Software Total';
 export const aboutUs = {
   title: 'Nosotros',
   description: `

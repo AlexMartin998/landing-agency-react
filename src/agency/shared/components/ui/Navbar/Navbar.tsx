@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { IoLogoBuffer } from 'react-icons/io5';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import { tabs } from '@/agency/shared/constants';
@@ -15,10 +14,11 @@ const Navbar: React.FC<NavbarInterface> = () => {
   return (
     <nav id="navbar">
       <div className="logo__container" onClick={() => scroll.scrollToTop()}>
-        <IoLogoBuffer className="icon" />
+        {/* <IoLogoBuffer className="icon" /> */}
 
         <h1 className="name">
-          Na<span className="color__primary gradient__text">me</span>
+          {/* Na<span className="color__primary gradient__text">me</span> */}
+          <img src="/1.png" alt="Software Total" className="logo__img" />
         </h1>
       </div>
 
